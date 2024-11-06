@@ -19,3 +19,10 @@ print(mar)
 mar.clear()
 print("\n", mar)
 
+mar2=[8,12,53,33,21]
+mar3=[99,21,45,66,88]
+mylist=list(set(mar2)|set(mar3))
+print(mylist)
+
+mar4=mar2+mar3
+print(mar4)
